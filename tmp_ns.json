@@ -3,20 +3,19 @@
     "kind": "Namespace",
     "metadata": {
         "annotations": {
-            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Namespace\",\"metadata\":{\"annotations\":{},\"labels\":{\"argo.cntk/instance\":\"namespace-tools\"},\"name\":\"tools\"}}\n",
-            "openshift.io/sa.scc.mcs": "s0:c27,c9",
-            "openshift.io/sa.scc.supplemental-groups": "1000720000/10000",
-            "openshift.io/sa.scc.uid-range": "1000720000/10000"
+            "openshift.io/sa.scc.mcs": "s0:c28,c27",
+            "openshift.io/sa.scc.supplemental-groups": "1000810000/10000",
+            "openshift.io/sa.scc.uid-range": "1000810000/10000"
         },
-        "creationTimestamp": "2022-12-21T12:28:51Z",
-        "deletionTimestamp": "2022-12-21T15:31:24Z",
+        "creationTimestamp": "2022-12-21T16:32:09Z",
+        "deletionTimestamp": "2022-12-21T16:32:10Z",
         "labels": {
-            "argo.cntk/instance": "namespace-tools",
-            "kubernetes.io/metadata.name": "tools"
+            "argo.cntk/instance": "namespace-ibm-common-services",
+            "kubernetes.io/metadata.name": "ibm-common-services"
         },
-        "name": "tools",
-        "resourceVersion": "926018",
-        "uid": "5af33b55-9f0e-4b76-a352-d4eb9f9ebc82"
+        "name": "ibm-common-services",
+        "resourceVersion": "953671",
+        "uid": "8589e7ca-a4ee-459a-b0a0-75ead8aa347c"
     },
     "spec": {
         "finalizers": [
@@ -25,36 +24,36 @@
     "status": {
         "conditions": [
             {
-                "lastTransitionTime": "2022-12-21T15:32:17Z",
+                "lastTransitionTime": "2022-12-21T16:32:17Z",
                 "message": "All resources successfully discovered",
                 "reason": "ResourcesDiscovered",
                 "status": "False",
                 "type": "NamespaceDeletionDiscoveryFailure"
             },
             {
-                "lastTransitionTime": "2022-12-21T15:32:17Z",
+                "lastTransitionTime": "2022-12-21T16:32:17Z",
                 "message": "All legacy kube types successfully parsed",
                 "reason": "ParsedGroupVersions",
                 "status": "False",
                 "type": "NamespaceDeletionGroupVersionParsingFailure"
             },
             {
-                "lastTransitionTime": "2022-12-21T15:32:17Z",
+                "lastTransitionTime": "2022-12-21T16:32:17Z",
                 "message": "All content successfully deleted, may be waiting on finalization",
                 "reason": "ContentDeleted",
                 "status": "False",
                 "type": "NamespaceDeletionContentFailure"
             },
             {
-                "lastTransitionTime": "2022-12-21T15:32:17Z",
-                "message": "Some resources are remaining: ccs.ccs.cpd.ibm.com has 1 resource instances, wkc.wkc.cpd.ibm.com has 1 resource instances",
+                "lastTransitionTime": "2022-12-21T16:32:17Z",
+                "message": "Some resources are remaining: namespacescopes.operator.ibm.com has 4 resource instances, operandrequests.operator.ibm.com has 2 resource instances",
                 "reason": "SomeResourcesRemain",
                 "status": "True",
                 "type": "NamespaceContentRemaining"
             },
             {
-                "lastTransitionTime": "2022-12-21T15:32:17Z",
-                "message": "Some content in the namespace has finalizers remaining: ccs.cpd.ibm.com/finalizer in 1 resource instances, wkc.cpd.ibm.com/finalizer in 1 resource instances",
+                "lastTransitionTime": "2022-12-21T16:32:17Z",
+                "message": "Some content in the namespace has finalizers remaining: finalizer.nss.operator.ibm.com in 4 resource instances, finalizer.request.ibm.com in 2 resource instances",
                 "reason": "SomeFinalizersRemain",
                 "status": "True",
                 "type": "NamespaceFinalizersRemaining"
