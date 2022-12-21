@@ -37,7 +37,7 @@ resources:
 - argocd/operators/ibm-cpd-scheduling-operator.yaml
 #- argocd/instances/ibm-cpd-scheduling-instance.yaml
 - argocd/operators/ibm-cpd-platform-operator.yaml
-- argocd/instances/ibm-cpd-instance.yaml
+#- argocd/instances/ibm-cpd-instance.yaml
 #- argocd/operators/ibm-cpd-ws-operator.yaml
 #- argocd/instances/ibm-cpd-ws-instance.yaml
 #- argocd/operators/ibm-cpd-wkc-operator.yaml
@@ -62,11 +62,11 @@ resources:
 
 ## IBM Foundational Services / Common Services
 - argocd/operators/ibm-foundations.yaml
-- argocd/instances/ibm-foundational-services-instance.yaml
-- argocd/operators/ibm-automation-foundation-core-operator.yaml
-- argocd/operators/ibm-automation-foundation-operator.yaml
-- argocd/operators/ibm-license-service-operator.yaml
-- argocd/instances/ibm-license-service-instance.yaml
+#- argocd/instances/ibm-foundational-services-instance.yaml
+#- argocd/operators/ibm-automation-foundation-core-operator.yaml
+#- argocd/operators/ibm-automation-foundation-operator.yaml
+#- argocd/operators/ibm-license-service-operator.yaml
+#- argocd/instances/ibm-license-service-instance.yaml
 
 ## IBM Catalogs
 - argocd/operators/ibm-catalogs.yaml
