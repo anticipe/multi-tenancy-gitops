@@ -23,7 +23,7 @@ resources:
 #- argocd/namespace-spp.yaml
 #- argocd/namespace-spp-velero.yaml
 #- argocd/namespace-baas.yaml
-- argocd/namespace-db2.yaml
+#- argocd/namespace-db2.yaml
 #- argocd/namespace-mq.yaml
 #- argocd/namespace-b2bi-prod.yaml
 #- argocd/namespace-b2bi-nonprod.yaml
@@ -32,7 +32,7 @@ resources:
 #- argocd/namespace-sccm.yaml
 - argocd/serviceaccounts-ibm-common-services.yaml
 - argocd/serviceaccounts-tools.yaml
-- argocd/serviceaccounts-db2.yaml
+#- argocd/serviceaccounts-db2.yaml
 #- argocd/serviceaccounts-mq.yaml
 #- argocd/serviceaccounts-b2bi-prod.yaml
 #- argocd/serviceaccounts-b2bi-nonprod.yaml
